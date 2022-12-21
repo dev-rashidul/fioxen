@@ -6,13 +6,283 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fioxen - Home</title>
 
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
   <body>
+    <!-- Header Part HTML Start -->
+
+    <header>
+      <!-- Header Navigation Section HTML Start -->
+
+      <!-- Header Top Bar Section HTML Start -->
+
+      <section id="Header-topbar">
+        <div class="header-topbar">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4">
+                <ul class="topbar-social-link d-flex">
+                  <li><span>Follow us:</span></li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <div class="top-content text-center">
+                  <p>
+                    We Have Special Offers Every
+                    <a href="/">Find your offer</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="top-right">
+                  <ul class="d-flex">
+                    <li>
+                      <a href="/"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                        ><span>Search here</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="/"
+                        ><i class="fa-regular fa-heart"></i
+                        ><span>Wishlist</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="/"
+                        ><i class="fa-solid fa-cart-shopping"></i
+                        ><span>Cart</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Header Top Bar Section HTML End -->
+
+      <!-- Main Menu Section HTML Start -->
+
+      <section id="Main-menu">
+        <div class="primary-menu-wrapper">
+          <div class="container-fluid">
+            <div class="primary-menu">
+              <div class="row align-items-center">
+                <div class="col-lg-2 col-5">
+                  <div class="site-branding">
+                    <a class="brand-logo" href="/"
+                      ><img src="assets/images/logo.png" alt="Brand Logo"
+                    /></a>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-2">
+                  <nav class="main-menu">
+                    <ul>
+                      <div class="navbar-close d-block d-xl-none">
+                        <i class="fa-solid fa-xmark"></i>
+                      </div>
+                      <li class="menu-item">
+                        <a href="/">Home</a>
+                      </li>
+                      <li class="menu-item"><a href="/about">About us</a></li>
+                      <li class="menu-item">
+                        <a href="#">Listings</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#">Pages</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#">Article</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="/contact">Contact</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-lg-4 col-5">
+                  <div class="header-right-nav">
+                    <ul class="d-flex align-items-center">
+                      <li class="user-btn d-none d-xl-block">
+                        <a class="icon" href="/"
+                          ><i class="fa-regular fa-user"></i
+                        ></a>
+                      </li>
+                      <li class="hero-nav-btn d-none d-md-block">
+                        <a class="main-btn icon-btn" href="/add-listing"
+                          >Add Listing</a
+                        >
+                      </li>
+                      <div class="navbar-toggler d-block d-xl-none ps-5">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main Menu Section HTML Ens -->
+
+      <!-- Header Navigation Section HTML End -->
+
+      <!-- Hero Section HTML Start -->
+
+      <section id="Hero">
+        <div class="hero-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="hero-content pe-xl-4">
+                  <h1>Dream Explore Discover</h1>
+                  <h3>People Don’t Take,Trips Take People</h3>
+                  <div class="hero-search-wrapper">
+                    <form>
+                      <div class="row">
+                        <div class="col-lg-5 col-md-4 col-sm-12">
+                          <div class="form_group">
+                            <input
+                              type="search"
+                              class="form_control"
+                              placeholder="Search By Category"
+                              name="search"
+                              required=""
+                            /><i class="fa-solid fa-pen-nib"></i>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                          <div class="form_group">
+                            <input
+                              type="text"
+                              class="form_control"
+                              placeholder="Location"
+                              name="location"
+                              required=""
+                            /><i class="fa-solid fa-location-dot"></i>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                          <div>
+                            <button class="main-btn icon-btn">
+                              Search Now <i class="fa-regular fa-plus"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <p class="tags">
+                    <span>Popular:</span><a href="#">Saloon</a>,<a href="#"
+                      >Restaurant</a
+                    >,<a href="#">Game</a>,<a href="#">Counter</a>,<a href="#"
+                      >Train Station</a
+                    >,<a href="#">Parking</a>,<a href="#">Shooping</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+        dignissimos blanditiis assumenda reiciendis quaerat! Debitis deserunt
+        harum reprehenderit tenetur amet accusantium iusto praesentium ratione,
+        enim autem distinctio aperiam cum ipsum, eos quia ex, sunt aliquam
+        dignissimos voluptate ducimus ea dicta id culpa! Sequi necessitatibus
+        reprehenderit iure et veritatis iste, laudantium, vitae voluptatibus
+        placeat, quae ab quaerat commodi numquam fugit eveniet odio? Sequi
+        laboriosam tempora debitis et amet at aperiam deserunt veniam voluptate
+        fugit fugiat saepe, ad pariatur ut necessitatibus accusantium totam
+        assumenda obcaecati libero. Aut enim aperiam ratione excepturi. Mollitia
+        at vero dolores repellendus labore quam perspiciatis officiis nulla sed,
+        ad delectus a, pariatur repellat. Cum rerum, reiciendis ex delectus
+        itaque obcaecati pariatur ratione distinctio iure, sint quisquam minus
+        neque velit aliquam eos earum dicta optio ad voluptatem illo recusandae
+        possimus? Quos, adipisci? Dolore eos repellendus amet quaerat commodi.
+        Quos recusandae, natus eaque nemo similique odio totam eum, alias minima
+        expedita deserunt. Esse corporis pariatur iste repellat eaque unde iure?
+        Eligendi obcaecati exercitationem dolores libero amet recusandae
+        temporibus id consequuntur error nobis iure quas quam nisi unde
+        accusamus adipisci perferendis hic, ratione ab dolorem odit aliquam
+        cupiditate nesciunt. Illum non quo consequatur unde nostrum magni quas
+        nisi distinctio? Architecto minima magnam facilis adipisci animi error
+        illo natus porro perferendis repudiandae voluptas quae laudantium
+        ratione qui repellat eius, exercitationem voluptatum. Illo corrupti ipsa
+        error harum ducimus? Reprehenderit cum, quibusdam molestiae in quis aut
+        excepturi porro voluptas suscipit tenetur ipsum perspiciatis qui!
+        Expedita explicabo optio hic animi dolore iusto laudantium rem sunt
+        illo, inventore ipsa voluptates. Accusantium similique, asperiores velit
+        ea sint corrupti vero consequatur fuga expedita, aut impedit. Facilis
+        dolorum sapiente voluptatibus quis quibusdam eum quas. Placeat at,
+        voluptates rem in exercitationem ex atque cupiditate incidunt quasi et
+        ullam sit rerum dolorum perferendis libero corrupti corporis soluta
+        aliquam voluptas voluptate doloremque aut explicabo vitae! Quo quas ab
+        libero suscipit repellendus, nesciunt harum accusamus alias eius error
+        tenetur laudantium, cum itaque illo? Velit tempora nobis soluta atque
+        amet voluptate a totam officia distinctio, natus nesciunt nemo. Numquam
+        laborum architecto odio ullam saepe. Nisi mollitia praesentium
+        similique! Aliquid magni iste est distinctio ipsum! Quia corrupti rerum
+        distinctio nulla labore dolorem, sapiente vero modi. Obcaecati ratione
+        quod porro veniam natus ipsum saepe modi nam hic odit ullam fuga,
+        sapiente quis distinctio facilis esse tempore explicabo. Vel
+        necessitatibus culpa, optio mollitia tenetur in maxime error illum
+        aliquam est ex iure corporis possimus atque? Soluta alias minus officia
+        ad ipsum, repellendus consectetur tempore nulla amet enim ullam. Aliquam
+        et nesciunt possimus. Dolore vel doloremque ratione repellendus sequi
+        autem repudiandae voluptas impedit placeat fuga deserunt ut officiis
+        nemo accusamus assumenda dolor atque, architecto saepe et omnis. Veniam,
+        harum repellat perspiciatis cum porro vitae a sit dignissimos.
+        Consectetur totam repellendus incidunt cumque consequuntur nesciunt odit
+        debitis. Veritatis dolorem reiciendis sit facilis similique. Illum
+        dolores, aperiam pariatur officia dignissimos recusandae ipsum odit
+        saepe, delectus consequatur beatae. Rerum, quas. Rerum itaque non eos
+        maxime ratione autem obcaecati, hic quaerat libero incidunt? Facilis
+        cumque tempora aliquam ut sequi ipsa consectetur odit?
+      </h2>
+
+      <!-- Hero Section HTML End -->
+    </header>
+
+    <!-- Header Part HTML End -->
+
     <!-- Bootstrap JavaScript -->
     <script src="assets/js/bootstrap.min.js"></script>
 

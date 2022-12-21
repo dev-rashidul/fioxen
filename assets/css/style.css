@@ -1,7 +1,7 @@
 /* Base Styles CSS Start */
 
 /* Font */
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -34,3 +34,384 @@ li {
 }
 
 /* Base Styles CSS End */
+
+/* Header Part CSS Start */
+
+/* Header Navigation Section CSS Start */
+
+/* Header Top Bar Section CSS Start */
+
+.header-topbar .container-fluid {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.header-topbar {
+  padding: 15px 0 5px;
+}
+
+.header-topbar .top-right {
+  float: right;
+}
+
+.topbar-social-link li span {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0d0d0d;
+}
+
+.topbar-social-link li a i {
+  font-size: 15px;
+  color: #676767;
+  padding-left: 10px;
+  transition: all 0.3s ease-out 0s;
+}
+
+.topbar-social-link li a i:hover {
+  color: #ff344f;
+}
+
+.top-content p {
+  font-family: "Mulish", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #676767;
+}
+
+.top-content p a {
+  color: #ff344f;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.top-right ul li {
+  position: relative;
+}
+
+.top-right ul li::after {
+  content: "|";
+  margin-left: 15px;
+  margin-right: 10px;
+  color: #dcdedf;
+}
+
+.top-right ul li:last-child::after {
+  display: none;
+}
+
+.top-right ul li a {
+  color: #676767;
+  transition: all 0.3s ease-out 0s;
+}
+
+.top-right ul li a:hover {
+  color: #ff344f;
+}
+
+.top-right ul li a i {
+  padding-right: 5px;
+}
+
+/* Header Top Bar Section CSS End */
+
+/* Main Menu Section CSS Start */
+
+.primary-menu-wrapper .container-fluid {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.primary-menu {
+  background-color: #f7f7f7;
+  position: relative;
+  z-index: 999;
+}
+
+.primary-menu-wrapper.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  -webkit-animation: sticky 1.2s;
+  animation: sticky 1.2s;
+}
+
+@keyframes sticky {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 0;
+  }
+}
+
+.site-branding .brand-logo {
+  padding: 21px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff344f;
+}
+
+.main-menu ul {
+  display: flex;
+}
+
+.main-menu ul li {
+  position: relative;
+  margin: 0 20px;
+}
+
+.main-menu ul li a {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #0d0d0d;
+  padding: 32px 0;
+  line-height: 1;
+  transition: all 0.3s ease-out 0s;
+}
+
+.main-menu ul li:hover > a {
+  color: #ff344f;
+}
+
+.header-right-nav {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.main-btn {
+  display: inline-flex;
+  position: relative;
+  z-index: 1;
+  background-color: #ff344f;
+  padding: 16px 40px;
+  font-family: Quicksand, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.main-btn::before {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: #0d0d0d;
+  z-index: -1;
+  transition: all 0.3s ease-out 0s;
+}
+
+.main-btn:hover:before {
+  bottom: 0;
+}
+
+.header-right-nav ul li {
+  margin-left: 20px;
+}
+
+.header-right-nav ul li .main-btn {
+  padding: 14px 36px;
+  border-radius: 28px;
+  color: #fff;
+}
+
+.header-right-nav ul li .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  background-color: #ffd74e;
+  color: #0d0d0d;
+  border-radius: 50%;
+}
+
+.navbar-toggler {
+  cursor: pointer;
+}
+
+.navbar-toggler span {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 1px;
+  background: #000000;
+  border-radius: 5px;
+  transition: all 0.1s ease;
+}
+
+.navbar-toggler.active span {
+  background: transparent;
+}
+
+.navbar-toggler span::before,
+.navbar-toggler span::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler span::before {
+  transform: translateY(-8px);
+}
+
+.navbar-toggler.active span::before {
+  transform: rotate(45deg);
+}
+
+.navbar-toggler span::after {
+  transform: translateY(8px);
+}
+
+.navbar-toggler.active span::after {
+  transform: rotate(135deg);
+}
+
+.navbar-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+  background: #ff344f;
+  line-height: 40px;
+  cursor: pointer;
+  z-index: 12;
+}
+
+/* Main Menu Section CSS Ens */
+
+/* Header Navigation Section CSS End */
+
+/* Hero Section CSS Start */
+
+.hero-wrapper {
+  position: relative;
+  margin-top: -50px;
+  padding: 220px 0 270px;
+}
+
+.hero-wrapper:before {
+  position: absolute;
+  content: "";
+  width: 56.5%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../images/hero-left.jpg) no-repeat 50%;
+  background-size: cover;
+}
+
+.hero-wrapper:after {
+  position: absolute;
+  content: "";
+  width: 43.5%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: url(../images/hero-right.jpg) no-repeat 50%;
+  background-size: cover;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 90px;
+  line-height: 90px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 22px;
+}
+
+.hero-content h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 45px;
+}
+
+.hero-content .hero-search-wrapper {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 45px;
+}
+
+.hero-content .hero-search-wrapper form .form_control {
+  width: 100%;
+  height: 70px;
+  background-color: #f7f7f7;
+  padding: 0 20px;
+  border: none;
+  border-radius: 3px;
+}
+
+.hero-content .hero-search-wrapper form .form_control:focus {
+  outline: none;
+}
+
+.hero-content .hero-search-wrapper form .main-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 22px;
+  border: none;
+}
+
+.form_group {
+  position: relative;
+}
+
+.form_group i {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 10px;
+}
+
+.hero-content .hero-search-wrapper form .main-btn i {
+  padding-left: 5px;
+  margin-top: 6px;
+}
+
+.hero-content p.tags,
+p.tags a {
+  font-family: "Mulish", sans-serif;
+  font-size: 15px;
+  color: #0d0d0d;
+  font-weight: 500;
+}
+
+.hero-content p.tags span {
+  margin-right: 10px;
+}
+
+/* Hero Section CSS End */
+
+/* Header Part CSS End */
