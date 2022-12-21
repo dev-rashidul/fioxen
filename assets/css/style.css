@@ -412,6 +412,10 @@ p.tags a {
   margin-right: 10px;
 }
 
+::placeholder {
+  font-family: "Mulish", sans-serif;
+}
+
 /* Hero Section CSS End */
 
 /* Header Part CSS End */
