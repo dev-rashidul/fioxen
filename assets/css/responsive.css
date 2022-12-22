@@ -116,6 +116,9 @@
     font-size: 20px;
     line-height: 30px;
   }
+  .category-wrapper .category-column {
+    border-bottom: 1px solid #e8ebec;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
@@ -158,5 +161,8 @@
   .hero-content h3 {
     font-size: 20px;
     line-height: 30px;
+  }
+  .category-wrapper .category-column {
+    border-bottom: 1px solid #e8ebec;
   }
 }

@@ -418,4 +418,97 @@ p.tags a {
 
 /* Hero Section CSS End */
 
+/* Category Section CSS Start */
+
+.category-wrapper {
+  position: relative;
+  margin-top: -90px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 1.545px 4.755px 18.8px 1.2px rgb(30 33 62 / 6%);
+  z-index: 2;
+}
+
+.category-column {
+  position: relative;
+}
+
+.category-column::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #e8ebec;
+}
+
+.category-column:last-child::after {
+  width: 0px;
+}
+
+.category-item-common {
+  position: relative;
+  padding: 50px 30px;
+}
+
+.category-item .info {
+  transition: all 0.3s ease-out 0s;
+}
+
+.category-item .info i {
+  font-size: 60px;
+  color: #b1b1b1;
+  line-height: 1;
+}
+
+.category-item .info h6 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0d0d0d;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.category-btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff344f;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-out 0s;
+}
+
+.category-btn i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd74e;
+  color: #0d0d0d;
+}
+
+.category-item:hover .info {
+  transform: translateY(-30px);
+}
+
+.category-item:hover .category-btn {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Category Section CSS End */
+
 /* Header Part CSS End */
+
+/* Main Part CSS Start */
+
+/* Main Part CSS End */
