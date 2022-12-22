@@ -393,6 +393,7 @@ li {
   top: 50%;
   transform: translate(0, -50%);
   right: 10px;
+  color: #b1b1b1;
 }
 
 .hero-content .hero-search-wrapper form .main-btn i {
@@ -494,6 +495,10 @@ p.tags a {
   justify-content: center;
   background-color: #ffd74e;
   color: #0d0d0d;
+}
+
+.category-item:hover .info i {
+  color: #ff344f;
 }
 
 .category-item:hover .info {
