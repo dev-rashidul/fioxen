@@ -82,6 +82,17 @@
   .hero-content .hero-search-wrapper form .main-btn {
     padding: 20px 4px;
   }
+  .section-title h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .cta-content h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .place-container {
+    padding: 0px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -118,6 +129,19 @@
   }
   .category-wrapper .category-column {
     border-bottom: 1px solid #e8ebec;
+  }
+  .section-title h2 {
+    font-size: 36px;
+  }
+  .cta-content h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .features-wrapper .features-img {
+    margin-bottom: 60px;
+  }
+  .place-container {
+    padding: 20px;
   }
 }
 
@@ -164,5 +188,20 @@
   }
   .category-wrapper .category-column {
     border-bottom: 1px solid #e8ebec;
+  }
+  .section-title h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .cta-content h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .features-wrapper .features-img {
+    margin-right: 30px;
+    margin-bottom: 60px;
+  }
+  .place-container {
+    padding: 20px;
   }
 }

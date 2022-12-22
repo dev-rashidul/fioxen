@@ -33,6 +33,30 @@ li {
   list-style: none;
 }
 
+.pt-115 {
+  padding-top: 115px;
+}
+
+.pb-75 {
+  padding-bottom: 75px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+.mb-45 {
+  margin-bottom: 45px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mb-75 {
+  margin-bottom: 75px;
+}
+
 /* Base Styles CSS End */
 
 /* Header Part CSS Start */
@@ -215,6 +239,11 @@ li {
 
 .main-btn:hover:before {
   bottom: 0;
+}
+
+.hero-nav-btn i {
+  padding-left: 5px;
+  margin-top: 6px;
 }
 
 .header-right-nav ul li {
@@ -515,5 +544,553 @@ p.tags a {
 /* Header Part CSS End */
 
 /* Main Part CSS Start */
+
+/* Destination Section CSS Start */
+
+.listing-item {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.listing-grid-one {
+  box-shadow: 0 0 10px 0 rgb(36 37 51 / 8%);
+}
+
+.section-title span.sub-title {
+  position: relative;
+  display: block;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ff344f;
+  margin-bottom: 17px;
+}
+
+.section-title span.sub-title:after,
+.section-title span.sub-title:before {
+  display: inline-block;
+  content: "..";
+}
+
+.section-title span.sub-title:before {
+  margin-right: 7px;
+}
+
+.section-title span.sub-title:after {
+  margin-left: 7px;
+}
+
+.section-title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+
+.listing-item .listing-thumbnail {
+  position: relative;
+}
+
+.listing-item .listing-thumbnail img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.listing-thumbnail .featured-btn {
+  position: absolute;
+  top: -15px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.featured-btn {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 20px;
+  padding: 5px 14px;
+  background: #ff344f;
+  color: #ffffff;
+}
+
+.listing-thumbnail .featured-btn:after {
+  position: absolute;
+  top: 0;
+  right: -13px;
+  width: 0;
+  height: 0;
+  content: "";
+  border-bottom: 15px solid #ff344f;
+  border-right: 13.01px solid transparent;
+}
+
+.listing-thumbnail .thumbnail-meta {
+  background-color: #ffd74e;
+  padding: 8px 30px 8px 20px;
+  width: 80%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 98% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 98% 100%, 0 100%);
+  margin-top: -31.5px;
+}
+
+.thumbnail-meta .meta-icon-title .icon {
+  min-width: 45px;
+  max-width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: #ff344f;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.meta-icon-title h6 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0d0d0d;
+  margin: 0;
+}
+
+span.status {
+  padding: 5px 10px;
+  float: right;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 13px;
+}
+
+span.status.st-open {
+  background-color: #35c54c;
+}
+
+span.status.st-close {
+  background-color: #ff344f;
+}
+
+.listing-grid-one .listing-content {
+  border-radius: 0 0 3px 3px;
+  background-color: #fff;
+  padding: 22px 30px 23px;
+}
+
+.listing-content .title a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0d0d0d;
+  transition: all 0.3s ease-out 0s;
+}
+
+.listing-content .title a:hover {
+  color: #ff344f;
+}
+
+.listing-content ul.rating {
+  margin-bottom: 10px;
+}
+
+.listing-content ul.rating a {
+  font-family: "Mulish", sans-serif;
+  font-size: 15px;
+  color: #676767;
+}
+
+.ratings .rating {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.ratings .rating li.star i {
+  color: #676767;
+}
+
+.ratings .rating li.star:first-child i,
+.ratings .rating li.star:nth-child(2) i,
+.ratings .rating li.star:nth-child(3) i {
+  color: #ff344f;
+}
+
+.listing-content span.price {
+  display: block;
+  font-family: "Mulish", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #0d0d0d;
+  margin-bottom: 15px;
+}
+
+.listing-content span.phone-meta {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.listing-content span.phone-meta a {
+  font-family: "Mulish", sans-serif;
+  font-size: 15px;
+  color: #676767;
+}
+
+.listing-content span.phone-meta i {
+  color: #676767;
+  padding-right: 5px;
+}
+
+.listing-content .listing-meta {
+  padding-top: 15px;
+  border-top: 1px solid #dfdfdf;
+}
+
+.listing-content .listing-meta ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listing-content .listing-meta ul li span,
+.listing-content .listing-meta ul li span a {
+  font-family: "Mulish", sans-serif;
+  font-size: 15px;
+  color: #676767;
+}
+
+.listing-content .listing-meta ul li span i {
+  padding-right: 5px;
+  color: #f50056;
+}
+
+/* Destination Section CSS End */
+
+/* CTA Section CSS Start */
+
+.cta-wrapper {
+  position: relative;
+  z-index: 1;
+  padding: 120px 0;
+}
+
+.cta-wrapper:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(22, 22, 31, 0.75);
+  z-index: -1;
+}
+
+.bg_cover {
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cta-content img {
+  margin-bottom: 30px;
+}
+
+.cta-content h2 {
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.cta-content .main-btn {
+  color: #ffffff;
+}
+
+.cta-content .main-btn i {
+  padding-left: 5px;
+  margin-top: 6px;
+}
+
+/* CTA Section CSS End */
+
+/* Features Section CSS Start */
+
+.features-wrapper .features-img {
+  margin-right: 70px;
+  z-index: 1;
+  position: relative;
+}
+
+.features-wrapper .features-img:after {
+  position: absolute;
+  bottom: -25px;
+  right: -25px;
+  content: "";
+  width: 180px;
+  height: 180px;
+  background-color: #ffd74e;
+  z-index: -1;
+}
+
+.features-content h5 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 35px;
+  color: #ff344f;
+}
+
+.features-list .list-item .content h5 {
+  margin-bottom: 10px;
+}
+
+.features-list .list-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.features-list .list-item p {
+  font-family: "Mulish", sans-serif;
+  font-size: 15px;
+  color: #676767;
+  margin-bottom: 0;
+}
+
+.features-list .list-item .icon {
+  position: relative;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff344f;
+  margin-right: 30px;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.features-list .list-item .icon:before {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  content: "";
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ff344f;
+  border-radius: 3px;
+}
+
+.features-list .list-item .icon i {
+  font-size: 30px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+/* Features Section CSS End */
+
+/* Featured Place Section CSS Start */
+
+.place-container {
+  padding: 0 150px;
+}
+
+.place-item .place-thumbnail {
+  position: relative;
+  overflow: hidden;
+}
+
+.place-item .place-thumbnail img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.place-item {
+  transition: all 0.3s ease-out 0s;
+}
+
+.place-item .place-thumbnail .place-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  transform: translateY(20px);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-out 0s;
+}
+
+.place-item:hover .place-overlay {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.place-item .place-thumbnail .place-overlay .place-content {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 80%;
+  padding: 40px 15px;
+  border-radius: 3px;
+  background: hsla(0, 0%, 100%, 0.9);
+  box-shadow: 0 0 30px 0 rgb(0 5 63 / 10%);
+  visibility: hidden;
+  opacity: 1;
+  transition: all 0.3s ease-out 0s;
+}
+
+.place-item:hover .place-overlay .place-content {
+  visibility: visible;
+  opacity: 1;
+  bottom: 50px;
+}
+
+.place-item .place-thumbnail .place-content span.listing {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #ffffff;
+  background: #ff344f;
+  padding: 5px 23px;
+  border-radius: 15px;
+}
+
+.place-item .place-thumbnail .place-content h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.place-item .place-thumbnail .place-content .arrow-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  background-color: #ffd74e;
+  color: #0d0d0d;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Featured Place Section CSS End */
+
+/* Destination Two Section CSS Start */
+
+.listing-grid-item-two .listing-thumbnail .cat-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 46px;
+  height: 46px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: #ff344f;
+  font-size: 20px;
+}
+
+.listing-grid-item-two .listing-thumbnail .featured-btn2 {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  color: #ffffff;
+  background: #ff344f;
+}
+
+.listing-grid-item-two .ratings {
+  position: absolute;
+  left: 20px;
+  bottom: 25px;
+}
+
+.listing-grid-item-two .ratings i,
+.listing-grid-item-two .ratings span a {
+  color: #f7f7f7;
+  padding-right: 2px;
+}
+
+.ratings-three .star:first-child i,
+.ratings-three .star:nth-child(2) i,
+.ratings-three .star:nth-child(3) i {
+  color: #ff344f;
+}
+
+.ratings-four .star:first-child i,
+.ratings-four .star:nth-child(2) i,
+.ratings-four .star:nth-child(3) i,
+.ratings-four .star:nth-child(4) i {
+  color: #ff344f;
+}
+
+.ratings-five .star i {
+  color: #ff344f;
+}
+
+.listing-grid-item-two .listing-content {
+  background: #ffffff;
+  padding: 20px 30px 25px;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 0 10px 0 rgb(36 37 51 / 8%);
+}
+
+/* Destination Two Section CSS End */
+
+/* Vacation Section CSS Start */
+
+.vacation-wrapper {
+  position: relative;
+  background: url(../images/bg/video-bg-1.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+  z-index: 1;
+}
+
+.vacation-wrapper::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(22, 22, 31, 0.6);
+  z-index: -1;
+}
+
+.vacation-content .sub-title,
+.vacation-content h2,
+.vacation-content p {
+  color: #ffffff !important;
+}
+
+.vacation-content .main-btn {
+  color: #000000;
+  background: #ffd74e;
+}
+
+.vacation-content .main-btn:hover {
+  color: #ffffff;
+}
+
+.vacation-content .main-btn i {
+  padding-left: 5px;
+  margin-top: 6px;
+}
+
+/* Vacation Section CSS End */
 
 /* Main Part CSS End */
