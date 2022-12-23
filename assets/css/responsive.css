@@ -143,6 +143,15 @@
   .place-container {
     padding: 20px;
   }
+  .copyright-area {
+    text-align: center;
+  }
+  .copyright-link ul {
+    justify-content: center;
+  }
+  .copyright-link ul li {
+    padding-top: 15px;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
@@ -203,5 +212,18 @@
   }
   .place-container {
     padding: 20px;
+  }
+
+  .client-items {
+    justify-content: center;
+  }
+  .copyright-area {
+    text-align: center;
+  }
+  .copyright-link ul {
+    justify-content: center;
+  }
+  .copyright-link ul li {
+    padding-top: 15px;
   }
 }

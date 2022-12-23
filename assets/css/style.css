@@ -33,16 +33,40 @@ li {
   list-style: none;
 }
 
+.pt-65 {
+  padding-top: 65px;
+}
+
+.pt-90 {
+  padding-top: 90px;
+}
+
 .pt-115 {
   padding-top: 115px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
 }
 
 .pb-75 {
   padding-bottom: 75px;
 }
 
+.pb-115 {
+  padding-bottom: 115px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
 .mb-35 {
   margin-bottom: 35px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
 }
 
 .mb-45 {
@@ -391,7 +415,7 @@ li {
   margin-bottom: 45px;
 }
 
-.hero-content .hero-search-wrapper form .form_control {
+.form_control {
   width: 100%;
   height: 70px;
   background-color: #f7f7f7;
@@ -400,7 +424,7 @@ li {
   border-radius: 3px;
 }
 
-.hero-content .hero-search-wrapper form .form_control:focus {
+.form_control:focus {
   outline: none;
 }
 
@@ -1093,4 +1117,289 @@ span.status.st-close {
 
 /* Vacation Section CSS End */
 
+/* Client Section CSS Start */
+
+#Client {
+  border-bottom: 5px solid #e9eaec;
+}
+
+.client-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.client-img {
+  padding-bottom: 50px;
+}
+
+.client-items .client-img img {
+  margin: auto;
+  opacity: 0.5;
+  filter: grayscale(100%);
+  transition: all 0.3s ease-out 0s;
+}
+
+.client-items .client-img:hover img {
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+/* Client Section CSS End */
+
+/* Blog Section CSS Start */
+
+.blog-post-item-one .post-thumbnail {
+  position: relative;
+}
+
+.blog-post-item-one .post-thumbnail img {
+  width: 100%;
+}
+
+.blog-post-item-one .post-thumbnail .post-date {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.blog-post-item-one .post-thumbnail .post-date a {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #f31b38;
+}
+
+.blog-post-item-one .post-thumbnail .post-date a span {
+  font-family: Mulish, sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.blog-post-item-one .entry-content {
+  position: relative;
+  padding: 30px 35px;
+  background-color: #fff;
+  box-shadow: 1.545px 4.755px 18.8px 1.2px rgb(30 33 62 / 6%);
+  margin-left: 20px;
+  margin-top: -50px;
+  border-radius: 10px 0 0 10px;
+}
+
+.blog-post-item-one .entry-content .cat-btn {
+  display: block;
+  font-family: Mulish, sans-serif;
+  font-size: 15px;
+  color: #676767;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-out 0s;
+}
+
+.blog-post-item-one .entry-content .cat-btn i {
+  padding-right: 8px;
+}
+
+.blog-post-item-one .entry-content .cat-btn:hover {
+  color: #ff344f;
+}
+
+.blog-post-item-one .entry-content h3.title a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-out 0s;
+}
+
+.blog-post-item-one .entry-content h3.title a:hover {
+  color: #ff344f;
+}
+
+.blog-post-item-one .entry-content .post-meta ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.entry-content .post-meta span a {
+  font-family: Mulish, sans-serif;
+  font-size: 15px;
+  color: #676767;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-out 0s;
+}
+
+.entry-content .post-meta span a:hover {
+  color: #ff344f;
+}
+
+.entry-content .post-meta i {
+  color: #ff344f;
+  padding-right: 8px;
+}
+
+.blog-wrapper .main-btn {
+  color: #ffffff;
+}
+
+.blog-wrapper .main-btn i {
+  padding-left: 5px;
+  margin-top: 6px;
+}
+
+/* Blog Section CSS End */
+
 /* Main Part CSS End */
+
+/* Footer Section CSS Start */
+
+.footer-wrapper {
+  background: #121416;
+}
+
+.footer-social h4,
+.footer-widget .widget h4.widget-title {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.footer-social ul.social-link li {
+  margin-right: 10px;
+}
+
+.footer-social ul.social-link li a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  transition: all 0.3s ease-out 0s;
+}
+
+.footer-social ul.social-link li a:hover {
+  background: #ff344f;
+}
+
+.post-title-date span.posted-on {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.post-title-date span.posted-on a {
+  color: #676767;
+}
+
+.post-title-date h6.title {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.post-title-date h6.title a {
+  color: #ffffff;
+  transition: all 0.3s ease-out 0s;
+}
+
+.post-title-date h6.title a:hover {
+  color: #ff344f;
+}
+
+.categories-link li {
+  margin-bottom: 10px;
+}
+
+.categories-link li a {
+  font-family: Mulish, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  transition: all 0.3s ease-out 0s;
+}
+
+.categories-link li a i {
+  padding-right: 10px;
+}
+
+.categories-link li a:hover {
+  color: #ff344f;
+}
+
+.newsletter-widget p,
+.copyright-text p {
+  font-family: Mulish, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.newsletter-widget form .form_control {
+  height: 60px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.newsletter-widget form .main-btn {
+  color: #0d0d0d;
+  background: #ffd74e;
+  border-radius: 30px;
+}
+
+.newsletter-widget form .main-btn:hover {
+  color: #ffffff;
+}
+
+.newsletter-widget form .main-btn:hover::before {
+  background-color: #ff344f;
+}
+
+.copyright-area {
+  border-top: 1px solid hsla(216, 8%, 88%, 0.15);
+  padding: 25px 0;
+}
+
+.copyright-text p span {
+  font-weight: 700;
+  color: #ffd74e;
+}
+
+.copyright-link ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.copyright-area .copyright-link ul li::after {
+  display: inline-block;
+  content: "|";
+  color: #aaaaaa;
+  margin-left: 7px;
+  margin-right: 5px;
+}
+
+.copyright-area .copyright-link ul li:last-child::after {
+  content: "";
+}
+
+.copyright-link ul li a {
+  font-family: Mulish, sans-serif;
+  font-size: 15px;
+  color: #aaaaaa;
+  transition: all 0.3s ease-out 0s;
+}
+
+.copyright-link ul li a:hover {
+  color: #ff344f;
+}
+
+/* Footer Section CSS End */
