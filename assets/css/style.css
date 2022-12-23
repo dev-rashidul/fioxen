@@ -1117,6 +1117,18 @@ span.status.st-close {
 
 /* Vacation Section CSS End */
 
+/* Recommend Section CSS Start */
+
+.recommend-listing .listing-thumbnail {
+  max-width: 32%;
+  width: 100%;
+}
+.recommend-listing .listing-content {
+  width: 100%;
+}
+
+/* Recommend Section CSS End */
+
 /* Client Section CSS Start */
 
 #Client {

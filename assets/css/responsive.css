@@ -217,6 +217,10 @@
   .client-items {
     justify-content: center;
   }
+  .recommend-listing .listing-thumbnail {
+    max-width: 100%;
+    width: 100%;
+  }
   .copyright-area {
     text-align: center;
   }
