@@ -231,3 +231,36 @@
     padding-top: 15px;
   }
 }
+
+/* ============***=============
+============***============= */
+/* Listing Page Responsive CSS */
+/* ============***=============
+============***============= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .breadcrumbs-wrapper-one .listing-info-content {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .breadcrumbs-wrapper-one .listing-info-content {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .listing-details-wrapper .listing-review-box .review-list .review {
+    display: block;
+  }
+
+  .review-content {
+    padding-top: 15px;
+  }
+
+  .listing-details-wrapper .listing-review-form .form-rating {
+    float: none;
+    margin-top: 15px;
+  }
+}
