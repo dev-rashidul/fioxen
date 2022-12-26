@@ -243,6 +243,19 @@
     margin-left: 0px;
     margin-top: 20px;
   }
+
+  .breadcrumbs-wrapper::before {
+    width: 100%;
+  }
+
+  .breadcrumbs-wrapper::after {
+    display: none;
+  }
+
+  .breadcrumbs-wrapper .page-title h1.title {
+    font-size: 36px;
+    line-height: 45px;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
@@ -262,5 +275,17 @@
   .listing-details-wrapper .listing-review-form .form-rating {
     float: none;
     margin-top: 15px;
+  }
+
+  .breadcrumbs-wrapper::before {
+    width: 100%;
+  }
+
+  .breadcrumbs-wrapper::after {
+    display: none;
+  }
+  .breadcrumbs-wrapper .page-title h1.title {
+    font-size: 36px;
+    line-height: 45px;
   }
 }
